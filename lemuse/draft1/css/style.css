@@ -111,7 +111,7 @@ header {
   box-shadow: none;
   text-transform: none;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 22px;
   text-align: center;
   font-weight: 300;
@@ -187,7 +187,7 @@ header {
 .nav-collapse_ .nav > li > ul li.sfHover > a {
   text-decoration: none;
   color: #ffffff;
-  background: #e85356;
+  background: #ff7f00;
 }
 .nav-collapse_ .nav ul .sf-sub-indicator {
   display: none;
