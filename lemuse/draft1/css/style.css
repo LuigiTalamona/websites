@@ -236,7 +236,7 @@ h2 {
   line-height: 52px;
 }
 h3 {
-  font-size: 30px;
+  /*font-size: 30px;*/
   line-height: 34px;
   margin: 32px 0 15px;
   font-weight: normal;
@@ -325,9 +325,10 @@ p {
   box-shadow: none;
   padding: 0;
   line-height: 20px;
+  height: 520px;
 }
 .thumbnails-1 .thumbnail-1 section {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .thumbnails-1 .thumbnail-1 section strong {
   color: #ffffff;
@@ -430,7 +431,6 @@ p {
   color: #e85356;
 }
 .list li a {
-  color: #e85356;
   display: inline-block;
 }
 .list li a:hover {
@@ -589,7 +589,7 @@ p {
 }
 .mail-1 {
   text-decoration: underline;
-  color: #e85356;
+  color: #ff7f00;
 }
 .mail-1:hover {
   text-decoration: none;

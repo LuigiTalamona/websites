@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Le Muse</title>
+<meta charset="utf-8">
+<!-- <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+-->
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<script src="js/jquery.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script>
+if ($(window).width() > 1024) {
+    document.write("<" + "script src='js/jquery.preloader.js'></" + "script>");
+}
+</script>
+<script>
+jQuery(window).load(function () {
+    $x = $(window).width();
+    if ($x > 1024) {
+        jQuery("#content .row").preloader();
+    }
+    jQuery(".list-blog li:last-child").addClass("last");
+    jQuery(".list li:last-child").addClass("last");
+    jQuery('.spinner').animate({
+        'opacity': 0
+    }, 1000, 'easeOutCubic', function () {
+        jQuery(this).css('display', 'none')
+    });
+});
+</script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+<![endif]-->
+<style>
+    div.page {
+      float:left;
+      margin-right:5px;
+      display:inline-block;
+    }
+
+    p {
+      text-align:left;
+      display: block;
+    }
+    .list-services .thumbnail-2 {
+    background: #000000;
+    padding: 10px;
+}
+    .thumbnails-1 .thumbnail-2 {
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    line-height: 20px;
+  }
+  </style>
+
+
+</head>
+<body>
+<div class="spinner"></div>
+<header>
+  <div class="container clearfix">
+    <div class="row">
+      <div class="span12">
+        <div class="navbar navbar_">
+          <div class="container">
+            <h1 class="brand brand_"><a href="index.html"><img alt="" src="images/logolemuseIndirizzo.jpg"> </a></h1>
+            <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
+            <div class="nav-collapse nav-collapse_  collapse">
+              <ul class="nav sf-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="chisiamo.html">Chi</a></li>
+                <li><a href="libretto.html">Linee</a></li>
+                <li><a href="contact.html">Contatti</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="bg-content">
+  <div id="content">
+    <div class="container">
+
+      <div class="row">
+        <article class="span12">
+          <h3>Chi siamo</h3>
+        </article>
+        <div class="clear"></div>
+        <ul class="thumbnails thumbnails-1 list-services">
+          <li class="span4">
+            <div class="thumbnail thumbnail-2"> <img src="images/temp/titolare-2-temp.png" alt="">
+              <section> <a href="#" class="link-1">Silvia</a>
+                <p>
+                  Silvia &egrave; la designer del marchio Le Muse, ha un passato di pittrice e ceramista per poi arrivare a disegnare le sue collezioni di gioielli realizzati con corallo, perle, pietre preziose, oro e argento. II marchio Le Muse &egrave; l'albero della vita simbolo di rinnovamento
+                  della vita, realizzato in corallo Che
+                  in Italia &egrave; da sempre simbolo di
+                  rinascita e buona fortuna.
+                  Le varie collezioni traggono
+                  ispirazione dalla tradizione
+                  italiana e ogni pezzo &egrave; prodotto
+                  in Italia. Queste collezioni sono
+                  in esposizione nel negozio
+                  Le Muse situato in Varese.
+                  L~atelier &egrave; specializzato nella crea-
+                  zione di pezzi unici di gioielleria
+                  per i propri clienti dal 1984.
+                </p>
+              </section>
+            </div>
+          </li>
+          <li class="span4">
+            <div class="thumbnail thumbnail-2"> <img src="images/temp/titolare-1.png" alt="">
+              <section> <a href="#" class="link-1">Silvia</a>
+                <p>
+                  Silvia is the designer of the brand
+                  Le Muse gioelli. She has a past as
+                  a painter and ceramist before
+                  reaching the design of its jewelry
+                  collections made out of coral,
+                  pearls, precious stones, gold and
+                  silver,  The trademark is the tree of
+                  life: a symbol of rebirth and life
+                  energy thus made of coral, as in
+                  Italy the coral is a symbol of
+                  reneval of life and good luck.
+                  Her various collections arise from
+                  Italian traditions and everything is
+                  proudly made in Italy. These
+                  collections are exposed in the little
+                  shop "Le Muse" located in Varese.
+                  The atelier is specialized in the
+                  creation of unique pieces of jewelry
+                  for its customers since 1984.
+                </p>
+              </section>
+            </div>
+        </li>
+          <li class="span4">
+            <div class="thumbnail thumbnail-2"> <img src="images/temp/muse-team-temp.png" alt="">
+              <section> <a href="#" class="link-1">La squadra</a>
+                <p>La squadra dell'atelier 'Le Muse' unisce la massima attenzione alle esigenze della clientela con la capacit&agrave; di consigliare anche nelle scelte pi&ugrave; difficili.
+                Competenza, cortesia, sensibilit&agrave; artistica e buon gusto completano il profilo di questo gruppo insuperabile</p>
+              </section>
+              <section> <a href="#" class="link-1">The team</a>
+                <p>
+                  The team of the atelier 'The Muse' combines maximum attention to the needs of customers with the ability to advise in the most difficult choices . Competence, courtesy , artistic sensitivity and good taste complete the profile of this unsurpassed group.
+                </p>
+              </section>
+            </div>
+          </li>
+          <!--
+          <li class="span4">
+            <div class="thumbnail thumbnail-1"> <img src="images/temp/lemuse-temp.jpg" alt="">
+              <section> <a href="#" class="link-1">At vero eos et accusamus et iusto </a>
+                <p>Deleniti atque corrupti quos dolores molestias excepturi sint occaecati cupiditate nonprovident similique sunt in culpa.</p>
+              </section>
+            </div>
+          </li>
+         -->
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container clearfix">
+    <ul class="list-social pull-right">
+      <li><a class="icon-1" href="#"></a></li>
+      <li><a class="icon-2" href="#"></a></li>
+      <li><a class="icon-3" href="#"></a></li>
+      <li><a class="icon-4" href="#"></a></li>
+    </ul>
+    <div class="privacy pull-left">Design by: <a href="http://www.talamona.org/"><strong>Talamona Software</strong></a> </div>
+  </div>
+</footer>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
