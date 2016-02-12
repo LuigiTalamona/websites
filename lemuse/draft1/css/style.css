@@ -216,7 +216,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7 {
   text-transform: none;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -989,14 +990,14 @@ footer {
   .navbar_ .btn {
     display: inline-block;
     float: right;
-    background: #e85356;
+    background: #000000;
     padding: 18px 0 20px;
     text-decoration: none;
     margin: 0;
     font-size: 20px;
     line-height: 24px;
     text-shadow: none;
-    color: #ffffff;
+    color: #ff7f00;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;

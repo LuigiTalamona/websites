@@ -561,6 +561,11 @@ h6 {
   font-size: 12px;
   line-height: 20px;
 }
+h7 {
+  font-size: 15px;
+  line-height: 20px;
+}
+
 h1 small {
   font-size: 24px;
 }
