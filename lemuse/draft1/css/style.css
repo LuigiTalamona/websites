@@ -345,6 +345,8 @@ p {
 .txt-1 {
   color: #ffffff;
   padding: 3px 0 10px;
+  height: 230px;
+  overflow: auto;
 }
 /*------ list-services ------- */
 .list-services .thumbnail-1 {
